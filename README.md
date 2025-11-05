@@ -9,4 +9,4 @@
 
 ## 要求
 
-要求在 Linux 机器上配置一个自定义的域名，比如：ren.mysql.db.test，运行的时候每次都能执行真正的 dns 解析，比如 tcpdump 能抓到包，比如 nameserver 能收到这个解析请求，不能走任何 cache
+要求在 Linux 机器上解析域名，比如：test.plantegg，运行的时候每次都能执行真正的 dns 解析。比如 tcpdump 能抓到包，比如 nameserver 能收到这个解析请求，不能走任何 cache
